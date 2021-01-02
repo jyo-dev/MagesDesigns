@@ -1,0 +1,45 @@
+name: mathewnew
+description: A new Flutter project.
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.1
+  hovering: ^1.0.2
+  transparent_image: ^1.0.0
+  url_launcher: ^5.7.10
+  url_launcher_web: ^0.1.0
+  mailer: ^3.2.1
+  http: ^0.12.2
+  carousel_slider: ^2.3.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+     - images/
+
+  fonts:
+     - family: Trajan Pro
+       fonts:
+         - asset: fonts/BAHNSCHRIFT 1.TTF
